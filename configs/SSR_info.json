@@ -1,0 +1,240 @@
+{
+  "configs": [
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [俄国一高速接入]",
+      "server": "185.135.82.91",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [俄国二高速接入]",
+      "server": "185.135.83.62",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [俄国三低延时]",
+      "server": "185.135.81.140",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [香港动态IP线路接入A]",
+      "server": "hkt-a.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [香港动态IP线路接入B]",
+      "server": "hkt-b.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [香港动态IP线路接入C]",
+      "server": "hkt-c.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [香港动态IP线路接入D]",
+      "server": "hkt-d.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [香港动态IP线路接入E]",
+      "server": "hkt-e.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [美国一高速接入]",
+      "server": "uss.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [美国二高速接入]",
+      "server": "uss-b.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [美国流媒体线路A]",
+      "server": "us-hnh-a.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank  [美国流媒体线路B]",
+      "server": "us-hnh-b.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [日本一高速接入]",
+      "server": "jpp1.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [日本二高速接入]",
+      "server": "jjp2.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [日本三高速接入]",
+      "server": "j-p.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [韩国高速接入]",
+      "server": "krs-a1.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [新加坡高速接入]",
+      "server": "ssgp.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [新加坡高速接入]",
+      "server": "ssgp2.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [加拿大高速接入]",
+      "server": "ca.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [香港游戏专用线路]",
+      "server": "hk2.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [英国BBC iplayer]",
+      "server": "109.104.119.24",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [英国BBC iplayer]",
+      "server": "109.104.119.110",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [德国高速线路接入]",
+      "server": "185.248.142.146",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [IPV6美国线路测试]",
+      "server": "usv6.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [IPV6日本线路一测试]",
+      "server": "jp1v6.fastssr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "Mr.blank [IPV6日本线路二测试]",
+      "server": "jp2v6.fastssr.me",
+      "server_port": 11312
+    }
+  ],
+  "localPort": 1080,
+  "shareOverLan": false
+}

@@ -1,0 +1,8 @@
+1121965993 com.TTKN.CAJCloudMac (1.1.6)
+462058435 com.microsoft.Excel (16.25)
+1059334054 com.tencent.JietuMac (2.3.0)
+409201541 com.apple.iWork.Pages (8.0)
+409183694 com.apple.iWork.Keynote (9.0.2)
+462054704 com.microsoft.Word (16.25)
+462062816 com.microsoft.Powerpoint (16.25)
+409203825 com.apple.iWork.Numbers (6.0)
