@@ -1,8 +1,11 @@
 echo "[INFO] 打开任意来源app..."
 sudo spctl --master-disable
 
+echo "[INFO] 切换终端shell..."
+chsh -s /bin/zsh
+
 echo "[INFO] 添加Hammerspoon配置文件..."
-git clone https://github.com/TloveYing/hammerspoon-config.git ~/.hammerspoon
+git clone https://github.com/taujiong/hammerspoon-config.git ~/.hammerspoon
 
 echo "[INFO] 安装oh_my_zsh..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
@@ -16,6 +19,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.
 echo "[INFO] 下载powerlevel9k主题..."
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
+touch ~/.gitconfig
 rm ~/.gitconfig
 ln -s ~/.dotfiles/backups/.gitconfig ~/.gitconfig
 rm ~/.zshrc
@@ -28,7 +32,7 @@ open configs/snippets.dash
 # Choose default app icons to live in the Dock
 defaults write com.apple.dock persistent-apps -array ""
 for app in "Safari" "Mail" "Wechat" "QQ" "Visual Studio Code" \
-  "Notion" "iTunes" "System Preferences"; do
+  "iTunes" "System Preferences"; do
   defaults write com.apple.dock persistent-apps -array-add "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/${app}.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>"
 done
 killall "Dock"

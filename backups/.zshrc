@@ -11,9 +11,11 @@ ENABLE_CORRECTION="true"
 export ZSH="$HOME/.oh-my-zsh"
 plugins=(zsh-autosuggestions zsh-syntax-highlighting git autojump)
 
+# 设置终端代理
+export http_proxy=http://127.0.0.1:1087
+export https_proxy=http://127.0.0.1:1087
+
 # 设置别名
-alias ssh_aliyun="ssh root@112.74.45.91"
-alias ssh_aws="ssh ubuntu@3.214.203.94"
 alias tree="tree -N"
 alias brewup="brew upgrade"
 alias brewcup="brew cask upgrade"
@@ -25,7 +27,7 @@ alias mass="mas search"
 alias masi="mas install"
 alias pip="pip3"
 alias python="python3"
-alias baksys="dir=~/.dotfiles/app;brew tap > ${dir}/taps.txt;brew list > ${dir}/forlumns.txt;brewc list > ${dir}/casks.txt;mas list > ${dir}/apps.txt;pip3 list --format=freeze --not-required > ${dir}/pylibs.txt"
+alias baksys="dir=~/.dotfiles/app;brew tap > ${dir}/taps.txt;brew list > ${dir}/forlumns.txt;brewc list > ${dir}/casks.txt;mas list > ${dir}/apps.txt"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"

@@ -1,0 +1,426 @@
+{
+  "configs": [
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "最新域名: weblank.xyz",
+      "server": "weblank.xyz",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "俄罗斯A RT",
+      "server": "185.175.158.113",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "俄罗斯B RT",
+      "server": "185.175.158.50",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "俄罗斯C RT",
+      "server": "185.175.158.225",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 A",
+      "server": "hkt-a.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 B",
+      "server": "hkt-b.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 C",
+      "server": "hkt-c.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 D",
+      "server": "hkt-d.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 E",
+      "server": "hkt-e.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 F",
+      "server": "hktonlinetv-a.zapto.org",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 G",
+      "server": "hktonlinetv-b.zapto.org",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 H",
+      "server": "hktonlinetv-c.zapto.org",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态宽频 I",
+      "server": "hktonlinetv-d.zapto.org",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态 HKBN",
+      "server": "hk-hkbn.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "香港动态 WTT",
+      "server": "wttonline.zapto.org",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "澳门宽频",
+      "server": "mactmonline.zapto.org",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "美国 1",
+      "server": "uss.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "美国流媒体 A",
+      "server": "us-hnh-a.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "美国流媒体 B",
+      "server": "us-hnh-b.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "美国流媒体 C",
+      "server": "us-hnh-e.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "美国流媒体 D",
+      "server": "us-hnh-f.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "美国流媒体 E",
+      "server": "us-hnh-g.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "日本pccw A",
+      "server": "jp-b2.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "日本pccw B",
+      "server": "jp-c3.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "日本 微软A 2.5倍",
+      "server": "jp-tyo-m.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "日本 微软B 2.5倍",
+      "server": "jp-m-b.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "日本IIJ DIX A",
+      "server": "jp-dix-a.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "日本IIJ DIX B",
+      "server": "jp-dix-b.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "韩国高速接入A 2.5倍",
+      "server": "kr-sel-m.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "新加坡A 微软 2.5倍",
+      "server": "ssgp.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "新加坡B 微软 2.5倍",
+      "server": "sgp-a1.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "加拿大",
+      "server": "ca.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "英国 iplayer A",
+      "server": "109.104.119.190",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "英国 iplayer B",
+      "server": "85.159.91.141",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "土耳其 特殊",
+      "server": "turkey.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "日本 亚马逊",
+      "server": "jp-aws.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "韩国 亚马逊",
+      "server": "krs-aws.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "新加坡 亚马逊",
+      "server": "sgp-aws.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "印度 亚马逊",
+      "server": "ind-aws.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "IPV6美国线路",
+      "server": "usv6.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "IPV6日本线路 A",
+      "server": "jp1v6.fastssrr.me",
+      "server_port": 11312
+    },
+    {
+      "obfs": "tls1.2_ticket_auth",
+      "obfsparam": "download.windowsupdate.com",
+      "protocol": "auth_sha1_v4",
+      "method": "chacha20",
+      "password": "SWJTU.jt.mrblank7",
+      "remarks": "IPV6日本线路 B",
+      "server": "jp2v6.fastssrr.me",
+      "server_port": 11312
+    }
+  ],
+  "localPort": 1080,
+  "shareOverLan": false
+}

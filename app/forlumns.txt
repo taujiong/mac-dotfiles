@@ -21,6 +21,7 @@ mono
 ncurses
 netpbm
 openssl
+openssl@1.1
 pandoc
 pcre
 pcre2

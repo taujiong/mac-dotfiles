@@ -1,6 +1,6 @@
 [user]
-	name = Brayn
-	email = swjtujt@hotmail.com
+	name = taujiong
+	email = taujiong@outlook.com
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true

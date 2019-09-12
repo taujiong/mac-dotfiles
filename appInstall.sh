@@ -28,10 +28,3 @@ do
   echo "Installing ${appname}...";
   mas install ${appid};
 done
-
-# Python module
-cut -f 1 -d "=" app/pylibs.txt | while read module
-do
-  echo "Installing ${tap}...";
-  pip3 install ${module}
-done

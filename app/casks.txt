@@ -1,15 +1,9 @@
-baidunetdisk
-calibre
 dash
 font-hack-nerd-font
-github
 hammerspoon
 iina
 iterm2-nightly
-logitech-options
 neteasemusic
-notion
-onedrive
 qlimagesize
 qlmarkdown
 qlstephen
@@ -17,9 +11,7 @@ qlvideo
 qq
 quicklook-json
 setapp
-shadowsocksx-ng-r
 the-unarchiver
 visual-studio-code
 wechat
-youku
 zotero

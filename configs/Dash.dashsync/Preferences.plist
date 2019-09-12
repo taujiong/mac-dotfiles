@@ -100,7 +100,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:01:21Z</date>
+				<date>2019-09-11T15:54:58Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -120,7 +120,7 @@
 			<key>Pillow</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:01:25Z</date>
+				<date>2019-09-11T15:57:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -142,7 +142,7 @@
 			<key>Requests</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:01:21Z</date>
+				<date>2019-09-11T15:55:15Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -211,7 +211,7 @@
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:01:14Z</date>
+				<date>2019-09-11T17:15:02Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MatPlotLib.xml</key>
 			<dict>
