@@ -11,7 +11,9 @@ qlvideo
 qq
 quicklook-json
 setapp
+staruml
 the-unarchiver
+upic
 visual-studio-code
 wechat
 zotero

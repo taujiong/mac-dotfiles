@@ -139,6 +139,28 @@
 					<string>Pillow</string>
 				</dict>
 			</dict>
+			<key>Qt_for_Python</key>
+			<dict>
+				<key>date</key>
+				<date>2019-09-13T06:51:41Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>PySide2</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Qt_for_Python#readme</string>
+					<key>authorLinkText</key>
+					<string>AC Better</string>
+					<key>name</key>
+					<string>Qt for Python</string>
+					<key>platform</key>
+					<string>usercontribQt_for_Python</string>
+					<key>uniqueIdentifier</key>
+					<string>Qt_for_Python</string>
+				</dict>
+			</dict>
 			<key>Requests</key>
 			<dict>
 				<key>date</key>
@@ -206,7 +228,17 @@
 			<key>http://kapeli.com/feeds/C++.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:09:33Z</date>
+				<date>2019-09-13T09:24:28Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/CMake.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-09-13T06:21:46Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/LaTeX.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-09-24T12:43:15Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
@@ -216,12 +248,17 @@
 			<key>http://kapeli.com/feeds/MatPlotLib.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:06:13Z</date>
+				<date>2019-09-21T16:55:08Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:01:25Z</date>
+				<date>2019-09-13T06:46:40Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Unity_3D.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-09-13T10:20:51Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
@@ -257,9 +294,9 @@
 	<key>searchKey</key>
 	<dict>
 		<key>keyCode</key>
-		<integer>-1</integer>
+		<integer>4</integer>
 		<key>modifiers</key>
-		<integer>8395520</integer>
+		<integer>4096</integer>
 	</dict>
 	<key>searchUsingSelectedTextKey</key>
 	<dict>
@@ -378,7 +415,33 @@
 	<key>versionedDHUserRepo</key>
 	<dict>
 		<key>installed</key>
-		<dict/>
+		<dict>
+			<key>Qt_for_Python</key>
+			<dict>
+				<key>5.13.0</key>
+				<dict>
+					<key>date</key>
+					<date>2019-09-13T06:27:24Z</date>
+					<key>entry</key>
+					<dict>
+						<key>aliases</key>
+						<array>
+							<string>PySide2</string>
+						</array>
+						<key>authorLinkHref</key>
+						<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Qt_for_Python#readme</string>
+						<key>authorLinkText</key>
+						<string>AC Better</string>
+						<key>name</key>
+						<string>Qt for Python</string>
+						<key>platform</key>
+						<string>usercontribQt_for_Python</string>
+						<key>uniqueIdentifier</key>
+						<string>Qt_for_Python</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
 		<key>uninstalled</key>
 		<dict/>
 	</dict>

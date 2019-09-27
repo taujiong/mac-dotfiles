@@ -5,7 +5,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 HYPHEN_INSENSITIVE="true"
 
 # Enable command auto-correction.
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 
 # zsh插件
 export ZSH="$HOME/.oh-my-zsh"
@@ -27,7 +27,6 @@ alias mass="mas search"
 alias masi="mas install"
 alias pip="pip3"
 alias python="python3"
-alias baksys="dir=~/.dotfiles/app;brew tap > ${dir}/taps.txt;brew list > ${dir}/forlumns.txt;brewc list > ${dir}/casks.txt;mas list > ${dir}/apps.txt"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
@@ -52,7 +51,11 @@ COMPLETION_WAITING_DOTS="true"
 source $ZSH/oh-my-zsh.sh
 
 # source ~/.bash_profile
-
 if [ -f ~/.bash_profile ]; then
     . ~/.bash_profile;
+fi
+
+# pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
 fi
