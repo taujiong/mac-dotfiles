@@ -40,6 +40,7 @@ libtasn1
 libtiff
 libtool
 libunistring
+libvidstab
 libvorbis
 libvpx
 little-cms2
@@ -74,6 +75,7 @@ sdl2
 snappy
 speex
 sqlite
+telnet
 tesseract
 theora
 tree
