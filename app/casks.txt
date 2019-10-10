@@ -3,17 +3,12 @@ font-hack-nerd-font
 hammerspoon
 iina
 iterm2-nightly
-neteasemusic
 qlimagesize
 qlmarkdown
 qlstephen
 qlvideo
-qq
 quicklook-json
 setapp
 staruml
-the-unarchiver
-upic
 visual-studio-code
-wechat
 zotero
