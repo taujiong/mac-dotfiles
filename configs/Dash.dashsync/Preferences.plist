@@ -164,7 +164,7 @@
 			<key>Requests</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-11T15:55:15Z</date>
+				<date>2019-10-11T06:00:53Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -269,7 +269,7 @@
 	<key>menuIconBehavior</key>
 	<integer>1</integer>
 	<key>placeholderDelimiter</key>
-	<string>__</string>
+	<string>%%</string>
 	<key>profiles</key>
 	<array>
 		<dict>

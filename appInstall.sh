@@ -9,7 +9,7 @@ do
 done
 
 # cli
-cat app/forlumns.txt | while read forlumn
+cat app/formulaes.txt | while read forlumn
 do
   echo "Installing ${forlumn}...";
   brew install ${forlumn};

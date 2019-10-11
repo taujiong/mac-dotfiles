@@ -1,11 +1,12 @@
 echo "[INFO] 打开任意来源app..."
 sudo spctl --master-disable
 
-echo "[INFO] 切换终端shell..."
-chsh -s /bin/zsh
+# Catalina 已经将默认shell设置为zsh
+# echo "[INFO] 切换终端shell..."
+# chsh -s /bin/zsh
 
 echo "[INFO] 添加Hammerspoon配置文件..."
-git clone https://github.com/taujiong/hammerspoon-config.git ~/.hammerspoon
+git clone https://github.com/taujiong/.hammerspoon.git ~/.hammerspoon
 
 echo "[INFO] 安装oh_my_zsh..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
@@ -26,7 +27,7 @@ rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
 
 # Dash
-open configs/license.dash-license
+open configs/Dash-license.dash-license
 open configs/snippets.dash
 
 # Choose default app icons to live in the Dock
