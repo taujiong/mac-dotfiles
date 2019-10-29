@@ -17,8 +17,7 @@ export https_proxy=http://127.0.0.1:1087
 
 # 设置别名
 alias tree="tree -N"
-alias brewup="brew upgrade"
-alias brewcup="brew cask upgrade"
+alias brewup="brew upgrade; brew cask upgrade"
 alias brews="brew search"
 alias brewc="brew cask"
 alias brewi="brew install"

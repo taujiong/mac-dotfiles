@@ -5,8 +5,8 @@ sudo spctl --master-disable
 # echo "[INFO] 切换终端shell..."
 # chsh -s /bin/zsh
 
-echo "[INFO] 添加Hammerspoon配置文件..."
-git clone https://github.com/taujiong/.hammerspoon.git ~/.hammerspoon
+# echo "[INFO] 添加Hammerspoon配置文件..."
+# git clone https://github.com/taujiong/.hammerspoon.git ~/.hammerspoon
 
 echo "[INFO] 安装oh_my_zsh..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh

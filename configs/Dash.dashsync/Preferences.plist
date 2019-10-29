@@ -100,7 +100,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-08T15:37:54Z</date>
+				<date>2019-10-11T06:18:08Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -120,7 +120,7 @@
 			<key>Pillow</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-09T22:45:00Z</date>
+				<date>2019-10-11T06:13:00Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -130,7 +130,7 @@
 					<key>authorLinkHref</key>
 					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Pillow#readme</string>
 					<key>authorLinkText</key>
-					<string>153957</string>
+					<string>TomFrank</string>
 					<key>name</key>
 					<string>Pillow</string>
 					<key>platform</key>
@@ -142,7 +142,7 @@
 			<key>Qt_for_Python</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-13T06:51:41Z</date>
+				<date>2019-10-11T06:12:22Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -186,7 +186,7 @@
 			<key>Seaborn</key>
 			<dict>
 				<key>date</key>
-				<date>2019-06-12T06:03:21Z</date>
+				<date>2019-10-11T06:23:09Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -228,37 +228,37 @@
 			<key>http://kapeli.com/feeds/C++.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-13T09:24:28Z</date>
+				<date>2019-10-26T20:15:48Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/CMake.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-13T06:21:46Z</date>
+				<date>2019-10-11T06:12:35Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/LaTeX.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-24T12:43:15Z</date>
+				<date>2019-10-11T07:00:23Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-11T17:15:02Z</date>
+				<date>2019-10-11T06:57:24Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MatPlotLib.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-21T16:55:08Z</date>
+				<date>2019-10-26T21:27:47Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-13T06:46:40Z</date>
+				<date>2019-10-11T06:57:15Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Unity_3D.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-13T10:20:51Z</date>
+				<date>2019-10-29T04:29:53Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
@@ -421,7 +421,7 @@
 				<key>5.13.0</key>
 				<dict>
 					<key>date</key>
-					<date>2019-09-13T06:27:24Z</date>
+					<date>2019-10-29T04:27:40Z</date>
 					<key>entry</key>
 					<dict>
 						<key>aliases</key>
