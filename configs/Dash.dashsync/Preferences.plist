@@ -235,6 +235,11 @@
 				<key>date</key>
 				<date>2019-10-11T06:12:35Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/Java_SE11.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2019-11-10T10:12:36Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/LaTeX.xml</key>
 			<dict>
 				<key>date</key>
@@ -303,7 +308,7 @@
 		<key>keyCode</key>
 		<integer>-1</integer>
 		<key>modifiers</key>
-		<integer>8395520</integer>
+		<integer>0</integer>
 	</dict>
 	<key>shouldRestoreTabs</key>
 	<true/>

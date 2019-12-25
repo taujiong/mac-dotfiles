@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export TERM="xterm-256color"
 
 # _ and - will be interchangeable.
 HYPHEN_INSENSITIVE="true"
@@ -17,15 +18,21 @@ export https_proxy=http://127.0.0.1:1087
 
 # 设置别名
 alias tree="tree -N"
+
 alias brewup="brew upgrade; brew cask upgrade"
 alias brews="brew search"
-alias brewc="brew cask"
+alias brewl="brew list"
 alias brewi="brew install"
+alias brewu="brew uninstall"
+
+alias brewc="brew cask"
 alias brewci="brew cask install"
+alias brewcl="brew cask list"
+alias brewcu="brew cask uninstall"
+
 alias mass="mas search"
 alias masi="mas install"
-alias pip="pip3"
-alias python="python3"
+alias masl="mas list"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
@@ -44,7 +51,7 @@ POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
 
 ZSH_DISABLE_COMPFIX=true
 
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 COMPLETION_WAITING_DOTS="true"
 
 source $ZSH/oh-my-zsh.sh
@@ -54,7 +61,18 @@ if [ -f ~/.bash_profile ]; then
     . ~/.bash_profile;
 fi
 
-# pyenv
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/usr/local/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/usr/local/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
+        . "/usr/local/Caskroom/miniconda/base/etc/profile.d/conda.sh"
+    else
+        export PATH="/usr/local/Caskroom/miniconda/base/bin:$PATH"
+    fi
 fi
+unset __conda_setup
+# <<< conda initialize <<<
+
