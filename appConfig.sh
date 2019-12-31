@@ -25,6 +25,7 @@ rm ~/.gitconfig
 ln -s ~/.dotfiles/backups/.gitconfig ~/.gitconfig
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
+ln -h ~/.dotfiles/backups/config ~/.ssh/config
 
 # Dash
 open configs/Dash-license.dash-license

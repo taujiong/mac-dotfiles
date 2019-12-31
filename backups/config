@@ -1,0 +1,5 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host tencent
+    HostName 122.51.17.172
+    User ubuntu
+    IdentityFile /Users/taujiong/.ssh/tencent
