@@ -3,3 +3,8 @@ Host tencent
     HostName 122.51.17.172
     User ubuntu
     IdentityFile /Users/taujiong/.ssh/tencent
+
+Host deepin
+    HostName 122.51.17.172
+    User taujiong
+    IdentityFile /Users/taujiong/.ssh/deepin
