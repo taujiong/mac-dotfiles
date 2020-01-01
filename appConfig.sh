@@ -5,6 +5,7 @@ sudo spctl --master-disable
 # echo "[INFO] 切换终端shell..."
 # chsh -s /bin/zsh
 
+# 工具不常用，已弃用
 # echo "[INFO] 添加Hammerspoon配置文件..."
 # git clone https://github.com/taujiong/.hammerspoon.git ~/.hammerspoon
 
@@ -18,14 +19,21 @@ echo "[INFO] 配置自动补全命令..."
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 echo "[INFO] 下载powerlevel10k主题..."
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 
+# 配置文件同步
 touch ~/.gitconfig
 rm ~/.gitconfig
 ln -s ~/.dotfiles/backups/.gitconfig ~/.gitconfig
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
+mkdir ~/.ssh
 ln -h ~/.dotfiles/backups/config ~/.ssh/config
+
+# ssh 私玥配置
+ln -h ~/Documents/ssh-configs/deepin ~/.ssh/deepin
+ln -h ~/Documents/ssh-configs/tencent ~/.ssh/tencent
+chmod 600 ~/.ssh/deepin ~/.ssh/tencent
 
 # Dash
 open configs/Dash-license.dash-license

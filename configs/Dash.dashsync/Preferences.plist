@@ -100,7 +100,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2019-12-30T15:34:19Z</date>
+				<date>2020-01-01T06:59:22Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -164,7 +164,7 @@
 			<key>Requests</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T06:00:53Z</date>
+				<date>2020-01-01T06:57:27Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -186,7 +186,7 @@
 			<key>Seaborn</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T06:23:09Z</date>
+				<date>2020-01-01T07:34:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -233,32 +233,32 @@
 			<key>http://kapeli.com/feeds/CMake.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T06:12:35Z</date>
+				<date>2020-01-01T07:28:46Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Java_SE11.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-11-10T10:12:36Z</date>
+				<date>2020-01-01T07:26:03Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/LaTeX.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T07:00:23Z</date>
+				<date>2020-01-01T07:19:02Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T06:57:24Z</date>
+				<date>2020-01-01T06:55:49Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MatPlotLib.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-26T21:27:47Z</date>
+				<date>2020-01-01T07:33:33Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T06:57:15Z</date>
+				<date>2020-01-01T07:16:57Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Unity_3D.xml</key>
 			<dict>
@@ -426,7 +426,7 @@
 				<key>5.13.0</key>
 				<dict>
 					<key>date</key>
-					<date>2019-10-29T04:27:40Z</date>
+					<date>2020-01-01T07:02:01Z</date>
 					<key>entry</key>
 					<dict>
 						<key>aliases</key>
