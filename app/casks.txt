@@ -1,12 +1,10 @@
 calibre
 dash
 font-firacode-nerd-font
-font-sourcecodepro-nerd-font
 iina
 iterm2-nightly
 java
 jetbrains-toolbox
-karabiner-elements
 mactex-no-gui
 microsoft-remote-desktop-beta
 miniconda
