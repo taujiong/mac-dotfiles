@@ -21,10 +21,3 @@ do
   echo "Installing ${cask}...";
   brew cask install ${cask};
 done
-
-# App Store 
-cut -f 1,2 -d " " app/apps.txt | while read appid appname
-do
-  echo "Installing ${appname}...";
-  mas install ${appid};
-done

@@ -1,3 +1,11 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export TERM="xterm-256color"
@@ -41,22 +49,6 @@ alias brewci="brew cask install"
 alias brewcl="brew cask list"
 alias brewcu="brew cask uninstall"
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_MODE="nerdfont-complete"
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=60
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon user dir_writable dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time root_indicator background_jobs history ip time)
-#POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
-#POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-#POWERLEVEL9K_USER_ICON="\uF415"
-POWERLEVEL9K_ROOT_ICON="\uF09C"
-#POWERLEVEL9K_SUDO_ICON=$'\uF09C'
-POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
-#POWERLEVEL9K_VCS_GIT_ICON='\uF408 '
-#POWERLEVEL9K_VCS_GIT_GITHUB_ICON='\uF408 '
-
-ZSH_DISABLE_COMPFIX=true
 
 ENABLE_CORRECTION="false"
 COMPLETION_WAITING_DOTS="true"
@@ -85,3 +77,6 @@ unset __conda_setup
 
 # Add .NET Core SDK tools
 export PATH="$PATH:$HOME/.dotnet/tools"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

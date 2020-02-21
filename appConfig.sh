@@ -28,6 +28,7 @@ ln -s ~/.dotfiles/backups/.gitconfig ~/.gitconfig
 touch ~/.npmrc
 rm ~/.npmrc
 ln -s ~/.dotfiles/backups/.npmrc ~/.npmrc
+touch ~/.zshrc
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
 mkdir ~/.ssh

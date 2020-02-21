@@ -100,7 +100,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-21T06:24:08Z</date>
+				<date>2020-02-21T15:58:03Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -117,10 +117,13 @@
 					<string>Hammerspoon</string>
 				</dict>
 			</dict>
+		</dict>
+		<key>uninstalled</key>
+		<dict>
 			<key>Pillow</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-28T05:44:07Z</date>
+				<date>2020-02-21T16:02:16Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -142,7 +145,7 @@
 			<key>Qt_for_Python</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-28T05:56:13Z</date>
+				<date>2020-02-21T16:02:23Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -164,7 +167,7 @@
 			<key>Requests</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-01T06:57:27Z</date>
+				<date>2020-02-21T16:02:46Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -186,7 +189,7 @@
 			<key>Seaborn</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-01T07:34:11Z</date>
+				<date>2020-02-21T16:02:28Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -209,8 +212,6 @@
 				</dict>
 			</dict>
 		</dict>
-		<key>uninstalled</key>
-		<dict/>
 	</dict>
 	<key>actuallyDarkWebView</key>
 	<false/>
@@ -230,39 +231,44 @@
 				<key>date</key>
 				<date>2020-02-09T16:51:23Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/CMake.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2020-01-01T07:28:46Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Java_SE11.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2020-01-01T07:26:03Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/LaTeX.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-01T07:19:02Z</date>
+				<date>2020-02-21T16:00:58Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-01T06:55:49Z</date>
+				<date>2020-02-21T16:00:51Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-01T07:16:57Z</date>
+				<date>2020-02-21T16:33:34Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Unity_3D.xml</key>
 			<dict>
 				<key>date</key>
 				<date>2020-01-01T09:03:05Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/VueJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2020-02-21T16:10:02Z</date>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
+			<key>http://kapeli.com/feeds/CMake.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2020-02-21T16:02:51Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Java_SE11.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2020-02-21T16:02:32Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/MatPlotLib.xml</key>
 			<dict>
 				<key>date</key>
@@ -427,7 +433,7 @@
 				<key>5.13.0</key>
 				<dict>
 					<key>date</key>
-					<date>2020-01-01T07:02:01Z</date>
+					<date>2020-02-21T15:58:56Z</date>
 					<key>entry</key>
 					<dict>
 						<key>aliases</key>
