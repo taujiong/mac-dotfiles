@@ -8,7 +8,6 @@ gettext
 ghostscript
 git
 glib
-go
 graphviz
 gts
 icu4c
@@ -21,7 +20,6 @@ libpng
 libtiff
 libtool
 libunistring
-mas
 ncurses
 netpbm
 node
@@ -31,7 +29,6 @@ pcre
 pcre2
 pkg-config
 python
-qt
 readline
 sqlite
 telnet
@@ -40,3 +37,4 @@ tree
 webp
 wget
 xz
+yarn

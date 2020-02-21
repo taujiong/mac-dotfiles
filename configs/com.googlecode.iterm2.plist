@@ -20,6 +20,10 @@
 	<integer>0</integer>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
+	<key>HideFromDockAndAppSwitcher</key>
+	<true/>
+	<key>HideMenuBarInFullscreen</key>
+	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -41,6 +45,8 @@
 		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
 		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
 	</array>
+	<key>NSStatusItem Preferred Position Item-0</key>
+	<real>25400</real>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -72,7 +78,7 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>320 321 799 448 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 327 1440 550 0 0 1440 877 </string>
+	<string>0 877 1440 550 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -969,7 +975,11 @@
 	<key>NoSyncInstallationId</key>
 	<string>93637061-D556-4838-84A9-702307C119EA</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>1</integer>
+	<integer>3</integer>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>599725687.96774399</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1743,12 +1753,18 @@
 	<string>/Users/taujiong/.dotfiles/configs</string>
 	<key>PromptOnQuit</key>
 	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<false/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
 	<string>https://iterm2.com/appcasts/nightly_new.xml?shard=24</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
+	<key>SULastCheckTime</key>
+	<date>2020-01-21T08:33:20Z</date>
+	<key>SUSendProfileInfo</key>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>

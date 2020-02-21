@@ -12,27 +12,34 @@ ENABLE_CORRECTION="false"
 export ZSH="$HOME/.oh-my-zsh"
 plugins=(zsh-autosuggestions zsh-syntax-highlighting git autojump)
 
-# 设置终端代理
-export http_proxy=http://127.0.0.1:1087
-export https_proxy=http://127.0.0.1:1087
+# 网络代理配置
+export ssr_proxy=http://127.0.0.1:1087
+
+function fq() {
+    export http_proxy=$ssr_proxy
+    export https_proxy=$ssr_proxy
+    echo -e "已开启代理"
+}
+
+function zl() {
+    unset http_proxy
+    unset https_proxy
+    echo -e "已关闭代理"
+}
 
 # 设置别名
 alias tree="tree -N"
 
 alias brewup="brew upgrade; brew cask upgrade"
 alias brews="brew search"
-alias brewl="brew list"
 alias brewi="brew install"
+alias brewl="brew list"
 alias brewu="brew uninstall"
 
 alias brewc="brew cask"
 alias brewci="brew cask install"
 alias brewcl="brew cask list"
 alias brewcu="brew cask uninstall"
-
-alias mass="mas search"
-alias masi="mas install"
-alias masl="mas list"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE="nerdfont-complete"
@@ -76,3 +83,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Add .NET Core SDK tools
+export PATH="$PATH:$HOME/.dotnet/tools"

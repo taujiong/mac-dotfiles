@@ -8,3 +8,6 @@
 	smudge = git-lfs smudge -- %f
 [core]
 	quotepath = false
+	autocrlf = input
+[https]
+	proxy = http://127.0.0.1:1087

@@ -100,7 +100,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-01T06:59:22Z</date>
+				<date>2020-01-21T06:24:08Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -120,7 +120,7 @@
 			<key>Pillow</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T06:13:00Z</date>
+				<date>2020-01-28T05:44:07Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -142,7 +142,7 @@
 			<key>Qt_for_Python</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-11T06:12:22Z</date>
+				<date>2020-01-28T05:56:13Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -228,7 +228,7 @@
 			<key>http://kapeli.com/feeds/C++.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-26T20:15:48Z</date>
+				<date>2020-02-09T16:51:23Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/CMake.xml</key>
 			<dict>
@@ -250,11 +250,6 @@
 				<key>date</key>
 				<date>2020-01-01T06:55:49Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/MatPlotLib.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2020-01-01T07:33:33Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
@@ -263,11 +258,17 @@
 			<key>http://kapeli.com/feeds/Unity_3D.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-29T04:29:53Z</date>
+				<date>2020-01-01T09:03:05Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>http://kapeli.com/feeds/MatPlotLib.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2020-01-13T13:01:24Z</date>
+			</dict>
+		</dict>
 	</dict>
 	<key>isPinned</key>
 	<false/>

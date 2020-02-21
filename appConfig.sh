@@ -25,12 +25,15 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 touch ~/.gitconfig
 rm ~/.gitconfig
 ln -s ~/.dotfiles/backups/.gitconfig ~/.gitconfig
+touch ~/.npmrc
+rm ~/.npmrc
+ln -s ~/.dotfiles/backups/.npmrc ~/.npmrc
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
 mkdir ~/.ssh
 ln -h ~/.dotfiles/backups/config ~/.ssh/config
 
-# ssh 私玥配置
+# ssh 私钥配置
 ln -h ~/Documents/ssh-configs/deepin ~/.ssh/deepin
 ln -h ~/Documents/ssh-configs/tencent ~/.ssh/tencent
 chmod 600 ~/.ssh/deepin ~/.ssh/tencent
