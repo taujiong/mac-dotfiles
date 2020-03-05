@@ -18,17 +18,17 @@ ENABLE_CORRECTION="false"
 
 # zsh插件
 export ZSH="$HOME/.oh-my-zsh"
-plugins=(zsh-autosuggestions zsh-syntax-highlighting git autojump)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting git autojump docker npm yarn dotnet git-flow)
 
 # 网络代理配置
 export ssr_proxy=http://127.0.0.1:1087
-
+export http_proxy=$ssr_proxy
+export https_proxy=$ssr_proxy
 function fq() {
     export http_proxy=$ssr_proxy
     export https_proxy=$ssr_proxy
     echo -e "已开启代理"
 }
-
 function zl() {
     unset http_proxy
     unset https_proxy
@@ -80,3 +80,6 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# config localhost https for develop
+export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"

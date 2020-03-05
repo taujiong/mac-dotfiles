@@ -42,7 +42,6 @@ class GnuBacktraceIntegration(Integration):
         # type: () -> None
         @add_global_event_processor
         def process_gnu_backtrace(event, hint):
-            # type: (Dict[str, Any], Dict[str, Any]) -> Dict[str, Any]
             with capture_internal_exceptions():
                 return _process_gnu_backtrace(event, hint)
 

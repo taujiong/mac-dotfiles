@@ -9,3 +9,8 @@ Host deepin
     Port 7022
     User taujiong
     IdentityFile /Users/taujiong/.ssh/deepin
+
+Host office-pc
+    HostName 122.51.17.172
+    Port 7003
+    User taujiong@outlook.com

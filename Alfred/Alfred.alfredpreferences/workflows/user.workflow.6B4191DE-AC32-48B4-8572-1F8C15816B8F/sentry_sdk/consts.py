@@ -8,7 +8,6 @@ if MYPY:
     from typing import Type
     from typing import Dict
     from typing import Any
-    from typing import Sequence
 
     from sentry_sdk.transport import Transport
     from sentry_sdk.integrations import Integration
@@ -28,9 +27,9 @@ class ClientConstructor(object):
         environment=None,  # type: Optional[str]
         server_name=None,  # type: Optional[str]
         shutdown_timeout=2,  # type: int
-        integrations=[],  # type: Sequence[Integration]  # noqa: B006
-        in_app_include=[],  # type: List[str]  # noqa: B006
-        in_app_exclude=[],  # type: List[str]  # noqa: B006
+        integrations=[],  # type: List[Integration]
+        in_app_include=[],  # type: List[str]
+        in_app_exclude=[],  # type: List[str]
         default_integrations=True,  # type: bool
         dist=None,  # type: Optional[str]
         transport=None,  # type: Optional[Union[Transport, Type[Transport], Callable[[Event], None]]]
@@ -38,7 +37,7 @@ class ClientConstructor(object):
         send_default_pii=False,  # type: bool
         http_proxy=None,  # type: Optional[str]
         https_proxy=None,  # type: Optional[str]
-        ignore_errors=[],  # type: List[Union[type, str]]  # noqa: B006
+        ignore_errors=[],  # type: List[Union[type, str]]
         request_bodies="medium",  # type: str
         before_send=None,  # type: Optional[EventProcessor]
         before_breadcrumb=None,  # type: Optional[BreadcrumbProcessor]
@@ -49,7 +48,6 @@ class ClientConstructor(object):
         # DO NOT ENABLE THIS RIGHT NOW UNLESS YOU WANT TO EXCEED YOUR EVENT QUOTA IMMEDIATELY
         traces_sample_rate=0.0,  # type: float
         traceparent_v2=False,  # type: bool
-        _experiments={},  # type: Dict[str, Any]  # noqa: B006
     ):
         # type: (...) -> None
         pass
@@ -60,7 +58,7 @@ def _get_default_options():
     import inspect
 
     if hasattr(inspect, "getfullargspec"):
-        getargspec = inspect.getfullargspec
+        getargspec = inspect.getfullargspec  # type: ignore
     else:
         getargspec = inspect.getargspec  # type: ignore
 
@@ -72,7 +70,7 @@ DEFAULT_OPTIONS = _get_default_options()
 del _get_default_options
 
 
-VERSION = "0.13.5"
+VERSION = "0.10.0"
 SDK_INFO = {
     "name": "sentry.python",
     "version": VERSION,

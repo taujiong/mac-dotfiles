@@ -37,7 +37,8 @@ ln -h ~/.dotfiles/backups/config ~/.ssh/config
 # ssh 私钥配置
 ln -h ~/Documents/ssh-configs/deepin ~/.ssh/deepin
 ln -h ~/Documents/ssh-configs/tencent ~/.ssh/tencent
-chmod 600 ~/.ssh/deepin ~/.ssh/tencent
+ln -h ~/Documents/ssh-configs/office-pc ~/.ssh/office-pc
+chmod 600 ~/.ssh/deepin ~/.ssh/tencent ~/.ssh/office-pc
 
 # Dash
 open configs/Dash-license.dash-license

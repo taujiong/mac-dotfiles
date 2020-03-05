@@ -17,7 +17,6 @@ if MYPY:
 
 
 def default_callback(pending, timeout):
-    # type: (int, int) -> None
     """This is the default shutdown callback that is set on the options.
     It prints out a message to stderr that informs the user that some events
     are still pending and the process is waiting for them to flush out.
@@ -47,7 +46,6 @@ class AtexitIntegration(Integration):
         # type: () -> None
         @atexit.register
         def _shutdown():
-            # type: () -> None
             logger.debug("atexit: got shutdown signal")
             hub = Hub.main
             integration = hub.get_integration(AtexitIntegration)

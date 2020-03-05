@@ -1,29 +1,25 @@
-{"title": "help", "subtitle": "帮助", "arg": "2.2.5$%help$%帮助$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "kinematical", "subtitle": "运动学", "arg": "2.2.5$%kinematical$%运动学$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "rolling stock system", "subtitle": "车辆系统", "arg": "2.2.5$%rolling stock system$%车辆系统$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "Eddy current", "subtitle": "涡流", "arg": "2.2.5$%Eddy current$%涡流$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "excitation", "subtitle": "激", "arg": "2.2.5$%excitation$%激$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "excitation", "subtitle": "激", "arg": "2.2.5$%excitation$%激$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "delamination", "subtitle": "分层", "arg": "2.2.5$%delamination$%分层$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "tensor", "subtitle": "张量", "arg": "2.2.5$%tensor$%张量$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "ICA", "subtitle": "ICA", "arg": "2.2.5$%ICA$%ICA$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "ferrite", "subtitle": "铁素体", "arg": "2.2.5$%ferrite$%铁素体$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "anomalistic", "subtitle": "近点", "arg": "2.2.5$%anomalistic$%近点$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "planarization", "subtitle": "整平", "arg": "2.2.5$%planarization$%整平$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "audit", "subtitle": "审计", "arg": "2.2.5$%audit$%审计$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "kinematics", "subtitle": "运动学", "arg": "2.2.5$%kinematics$%运动学$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "topology", "subtitle": "拓扑结构", "arg": "2.2.5$%topology$%拓扑结构$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "slurry", "subtitle": "泥浆", "arg": "2.2.5$%slurry$%泥浆$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "asperity", "subtitle": "艰苦的条件", "arg": "2.2.5$%asperity$%艰苦的条件$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "asperity", "subtitle": "艰苦的条件", "arg": "2.2.5$%asperity$%艰苦的条件$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "defer", "subtitle": "推迟", "arg": "2.2.5$%defer$%推迟$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "polyfills", "subtitle": "polyfills", "arg": "2.2.5$%polyfills$%polyfills$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "vendor", "subtitle": "供应商", "arg": "2.2.5$%vendor$%供应商$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "aeroelasticity", "subtitle": "空气弹性", "arg": "2.2.5$%aeroelasticity$%空气弹性$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "piston", "subtitle": "活塞", "arg": "2.2.5$%piston$%活塞$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "hysteresis", "subtitle": "磁滞", "arg": "2.2.5$%hysteresis$%磁滞$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "位移", "subtitle": "The displacement", "arg": "2.2.5$%位移$%The displacement$%zh-CHS2EN$%$%",         "icon": "icon.png"}
-{"title": "hysteresis", "subtitle": "磁滞", "arg": "2.2.5$%hysteresis$%磁滞$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "shock absorber lstm", "subtitle": "减震器lstm", "arg": "2.2.5$%shock absorber lstm$%减震器lstm$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "shock absorber", "subtitle": "减震器", "arg": "2.2.5$%shock absorber$%减震器$%EN2zh-CHS$%$%",         "icon": "icon.png"}
-{"title": "excitations", "subtitle": "激", "arg": "2.2.5$%excitations$%激$%EN2zh-CHS$%$%",         "icon": "icon.png"}
+{"title": "ok", "subtitle": "好吧", "arg": "ok$%好吧$%ok$%$%",         "icon": "icon.png"}
+{"title": "ok", "subtitle": "好吧", "arg": "ok$%好吧$%ok$%$%",         "icon": "icon.png"}
+{"title": "hello", "subtitle": "你好", "arg": "hello$%你好$%hello$%$%",         "icon": "icon.png"}
+{"title": "你好", "subtitle": "hello", "arg": "你好$%hello$%hello$%$%",         "icon": "icon.png"}
+{"title": "你", "subtitle": "you", "arg": "你$%you$%you$%$%",         "icon": "icon.png"}
+{"title": "ceshi", "subtitle": "前", "arg": "ceshi$%前$%ceshi$%$%",         "icon": "icon.png"}
+{"title": "cesh", "subtitle": "cesh", "arg": "cesh$%cesh$%cesh$%$%",         "icon": "icon.png"}
+{"title": "spiral", "subtitle": "螺旋", "arg": "spiral$%螺旋$%spiral$%$%",         "icon": "icon.png"}
+{"title": "chazh", "subtitle": "chazh", "arg": "chazh$%chazh$%chazh$%$%",         "icon": "icon.png"}
+{"title": "插值", "subtitle": "The interpolation", "arg": "插值$%The interpolation$%The interpolation$%$%",         "icon": "icon.png"}
+{"title": "拟合", "subtitle": "fitting", "arg": "拟合$%fitting$%fitting$%$%",         "icon": "icon.png"}
+{"title": "幂", "subtitle": "power", "arg": "幂$%power$%power$%$%",         "icon": "icon.png"}
+{"title": "系数", "subtitle": "The coefficient of", "arg": "系数$%The coefficient of$%The coefficient of$%$%",         "icon": "icon.png"}
+{"title": "加数", "subtitle": "addend", "arg": "加数$%addend$%addend$%$%",         "icon": "icon.png"}
+{"title": "forlumn", "subtitle": "forlumn", "arg": "forlumn$%forlumn$%forlumn$%$%",         "icon": "icon.png"}
+{"title": "fo", "subtitle": "佛", "arg": "fo$%佛$%fo$%$%",         "icon": "icon.png"}
+{"title": "for", "subtitle": "为", "arg": "for$%为$%for$%$%",         "icon": "icon.png"}
+{"title": "form", "subtitle": "形式", "arg": "form$%形式$%form$%$%",         "icon": "icon.png"}
+{"title": "formulaes", "subtitle": "公式", "arg": "formulaes$%公式$%formulaes$%$%",         "icon": "icon.png"}
+{"title": "hello", "subtitle": "你好", "arg": "hello$%你好$%hello$%$%",         "icon": "icon.png"}
+{"title": "surname", "subtitle": "姓", "arg": "surname$%姓$%surname$%$%",         "icon": "icon.png"}
+{"title": "pa", "subtitle": "pa", "arg": "pa$%pa$%pa$%$%",         "icon": "icon.png"}
+{"title": "payload", "subtitle": "有效载荷", "arg": "payload$%有效载荷$%payload$%$%",         "icon": "icon.png"}
+{"title": "debounce", "subtitle": "防反跳", "arg": "debounce$%防反跳$%debounce$%$%",         "icon": "icon.png"}
+{"title": "tedious", "subtitle": "单调乏味的", "arg": "tedious$%单调乏味的$%tedious$%$%",         "icon": "icon.png"}

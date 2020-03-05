@@ -7,6 +7,7 @@ gdbm
 gettext
 ghostscript
 git
+git-flow
 glib
 graphviz
 gts
@@ -20,9 +21,11 @@ libpng
 libtiff
 libtool
 libunistring
+mkcert
 ncurses
 netpbm
 node
+nspr
 openssl@1.1
 pandoc
 pcre
