@@ -1,11 +1,9 @@
 calibre
 dash
-docker
 dotnet-sdk
 font-firacode-nerd-font
 iina
 iterm2
-java
 jetbrains-toolbox
 microsoft-edge
 microsoft-remote-desktop-beta
