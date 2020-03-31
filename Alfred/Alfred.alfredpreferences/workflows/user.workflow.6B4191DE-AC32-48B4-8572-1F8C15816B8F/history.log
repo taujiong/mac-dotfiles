@@ -1,25 +1,6 @@
-{"title": "ok", "subtitle": "好吧", "arg": "ok$%好吧$%ok$%$%",         "icon": "icon.png"}
-{"title": "ok", "subtitle": "好吧", "arg": "ok$%好吧$%ok$%$%",         "icon": "icon.png"}
-{"title": "hello", "subtitle": "你好", "arg": "hello$%你好$%hello$%$%",         "icon": "icon.png"}
-{"title": "你好", "subtitle": "hello", "arg": "你好$%hello$%hello$%$%",         "icon": "icon.png"}
-{"title": "你", "subtitle": "you", "arg": "你$%you$%you$%$%",         "icon": "icon.png"}
-{"title": "ceshi", "subtitle": "前", "arg": "ceshi$%前$%ceshi$%$%",         "icon": "icon.png"}
-{"title": "cesh", "subtitle": "cesh", "arg": "cesh$%cesh$%cesh$%$%",         "icon": "icon.png"}
-{"title": "spiral", "subtitle": "螺旋", "arg": "spiral$%螺旋$%spiral$%$%",         "icon": "icon.png"}
-{"title": "chazh", "subtitle": "chazh", "arg": "chazh$%chazh$%chazh$%$%",         "icon": "icon.png"}
-{"title": "插值", "subtitle": "The interpolation", "arg": "插值$%The interpolation$%The interpolation$%$%",         "icon": "icon.png"}
-{"title": "拟合", "subtitle": "fitting", "arg": "拟合$%fitting$%fitting$%$%",         "icon": "icon.png"}
-{"title": "幂", "subtitle": "power", "arg": "幂$%power$%power$%$%",         "icon": "icon.png"}
-{"title": "系数", "subtitle": "The coefficient of", "arg": "系数$%The coefficient of$%The coefficient of$%$%",         "icon": "icon.png"}
-{"title": "加数", "subtitle": "addend", "arg": "加数$%addend$%addend$%$%",         "icon": "icon.png"}
-{"title": "forlumn", "subtitle": "forlumn", "arg": "forlumn$%forlumn$%forlumn$%$%",         "icon": "icon.png"}
-{"title": "fo", "subtitle": "佛", "arg": "fo$%佛$%fo$%$%",         "icon": "icon.png"}
-{"title": "for", "subtitle": "为", "arg": "for$%为$%for$%$%",         "icon": "icon.png"}
-{"title": "form", "subtitle": "形式", "arg": "form$%形式$%form$%$%",         "icon": "icon.png"}
-{"title": "formulaes", "subtitle": "公式", "arg": "formulaes$%公式$%formulaes$%$%",         "icon": "icon.png"}
-{"title": "hello", "subtitle": "你好", "arg": "hello$%你好$%hello$%$%",         "icon": "icon.png"}
-{"title": "surname", "subtitle": "姓", "arg": "surname$%姓$%surname$%$%",         "icon": "icon.png"}
-{"title": "pa", "subtitle": "pa", "arg": "pa$%pa$%pa$%$%",         "icon": "icon.png"}
-{"title": "payload", "subtitle": "有效载荷", "arg": "payload$%有效载荷$%payload$%$%",         "icon": "icon.png"}
-{"title": "debounce", "subtitle": "防反跳", "arg": "debounce$%防反跳$%debounce$%$%",         "icon": "icon.png"}
-{"title": "tedious", "subtitle": "单调乏味的", "arg": "tedious$%单调乏味的$%tedious$%$%",         "icon": "icon.png"}
+{"title": "parallel", "subtitle": "平行", "arg": "2.2.5$%parallel$%平行$%EN2zh-CHS$%$%",         "icon": "icon.png"}
+{"title": "parameter", "subtitle": "参数", "arg": "2.2.5$%parameter$%参数$%EN2zh-CHS$%$%",         "icon": "icon.png"}
+{"title": "paramet", "subtitle": "paramet", "arg": "2.2.5$%paramet$%paramet$%EN2zh-CHS$%$%",         "icon": "icon.png"}
+{"title": "parame", "subtitle": "parame", "arg": "2.2.5$%parame$%parame$%EN2zh-CHS$%$%",         "icon": "icon.png"}
+{"title": "parament", "subtitle": "祭台布", "arg": "2.2.5$%parament$%祭台布$%EN2zh-CHS$%$%",         "icon": "icon.png"}
+{"title": "revenge", "subtitle": "复仇", "arg": "2.2.5$%revenge$%复仇$%EN2zh-CHS$%$%",         "icon": "icon.png"}

@@ -52,6 +52,7 @@ alias brewcu="brew cask uninstall"
 
 ENABLE_CORRECTION="false"
 COMPLETION_WAITING_DOTS="true"
+ZSH_DISABLE_COMPFIX="true"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -82,4 +83,4 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # config localhost https for develop
-export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
+# export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"

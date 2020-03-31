@@ -100,7 +100,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2020-02-21T15:58:03Z</date>
+				<date>2020-03-07T13:46:48Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -120,7 +120,7 @@
 			<key>PyTorch</key>
 			<dict>
 				<key>date</key>
-				<date>2020-02-22T01:54:36Z</date>
+				<date>2020-03-31T03:30:07Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -259,27 +259,27 @@
 			<key>http://kapeli.com/feeds/LaTeX.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-02-21T16:00:58Z</date>
+				<date>2020-03-07T13:45:37Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-02-21T16:00:51Z</date>
+				<date>2020-03-07T13:45:41Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-02-21T16:33:34Z</date>
+				<date>2020-03-07T15:01:56Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Unity_3D.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-01-01T09:03:05Z</date>
+				<date>2020-03-07T17:00:00Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/VueJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-02-21T16:10:02Z</date>
+				<date>2020-03-07T14:32:26Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
@@ -460,7 +460,7 @@
 				<key>5.13.0</key>
 				<dict>
 					<key>date</key>
-					<date>2020-02-21T15:58:56Z</date>
+					<date>2020-03-07T14:33:05Z</date>
 					<key>entry</key>
 					<dict>
 						<key>aliases</key>

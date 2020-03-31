@@ -27,7 +27,7 @@ rm ~/.gitconfig
 ln -s ~/.dotfiles/backups/.gitconfig ~/.gitconfig
 touch ~/.npmrc
 rm ~/.npmrc
-ln -s ~/.dotfiles/backups/.npmrc ~/.npmrc
+ln -h ~/.dotfiles/backups/.npmrc ~/.npmrc
 touch ~/.zshrc
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
@@ -37,8 +37,7 @@ ln -h ~/.dotfiles/backups/config ~/.ssh/config
 # ssh 私钥配置
 ln -h ~/Documents/ssh-configs/deepin ~/.ssh/deepin
 ln -h ~/Documents/ssh-configs/tencent ~/.ssh/tencent
-ln -h ~/Documents/ssh-configs/office-pc ~/.ssh/office-pc
-chmod 600 ~/.ssh/deepin ~/.ssh/tencent ~/.ssh/office-pc
+chmod 600 ~/.ssh/deepin ~/.ssh/tencent
 
 # Dash
 open configs/Dash-license.dash-license
@@ -46,7 +45,7 @@ open configs/snippets.dash
 
 # Choose default app icons to live in the Dock
 defaults write com.apple.dock persistent-apps -array ""
-for app in "Safari" "Mail" "MWeb" "WeChat" "QQ" "Visual Studio Code" \
+for app in "Microsoft Edge" "Mail" "MWeb" "WeChat" "QQ" "Visual Studio Code" \
   "NeteaseMusic" "System Preferences"; do
   defaults write com.apple.dock persistent-apps -array-add "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/${app}.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>"
 done
