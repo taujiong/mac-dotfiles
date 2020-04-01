@@ -25,14 +25,20 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 touch ~/.gitconfig
 rm ~/.gitconfig
 ln -s ~/.dotfiles/backups/.gitconfig ~/.gitconfig
+
 touch ~/.npmrc
 rm ~/.npmrc
 ln -h ~/.dotfiles/backups/.npmrc ~/.npmrc
+
 touch ~/.zshrc
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
+
 mkdir ~/.ssh
 ln -h ~/.dotfiles/backups/config ~/.ssh/config
+
+mkdir ~/.config/powershell/PoshThemes
+ln -s ~/.dotfiles/backups/Powerlevel10k.psm1 ~/.config/powershell/PoshThemes/Powerlevel10k.psm1
 
 # ssh 私钥配置
 ln -h ~/Documents/ssh-configs/deepin ~/.ssh/deepin
