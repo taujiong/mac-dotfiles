@@ -15,7 +15,7 @@ function Write-Theme {
   $sl.PromptSymbols.SegmentForwardSymbol = [char]::ConvertFromUtf32(0xE0B0)         # 
   $sl.PromptSymbols.SegmentBackwardSymbol = [char]::ConvertFromUtf32(0xE0B2)        # 
 
-  #################### Os ####################
+  #region Os
   if ($PSVersionTable.Platform -ne 'Unix') {
     # suppose it to be Windows
     $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0xe70f)      # 
@@ -36,8 +36,9 @@ function Write-Theme {
   $Os = " $($sl.PromptSymbols.StartSymbol) "
   $sl.Colors.OsForegroundColor = [ConsoleColor]::Black
   $sl.Colors.OsBackgroundColor = [ConsoleColor]::Gray
+  #endregion
 
-  #################### Path ####################
+  #region Path
   $sl.PromptSymbols.PathHomeSymbol = [char]::ConvertFromUtf32(0xf015)   # 
   $sl.PromptSymbols.PathSymbol = [char]::ConvertFromUtf32(0xf07c)       # 
   $pathSymbol = if ($pwd.Path -eq $HOME) { $sl.PromptSymbols.PathHomeSymbol } else { $sl.PromptSymbols.PathSymbol }
@@ -45,8 +46,9 @@ function Write-Theme {
   $path = " $($pathSymbol) " + " $(Get-FullPath -dir $pwd) "
   $sl.Colors.PathForegroundColor = [ConsoleColor]::White
   $sl.Colors.PathBackgroundColor = [ConsoleColor]::DarkBlue
-
-  #################### Git ####################
+  #endregion
+  
+  #region Git Status
   if (Get-VCSStatus) {
     $gitInfo = Get-VcsInfo -status ($gitStatus)
 
@@ -54,8 +56,9 @@ function Write-Theme {
     $sl.Colors.GitForegroundColor = [ConsoleColor]::Black
     $sl.Colors.GitBackgroundColor = $gitInfo.BackgroundColor
   }
-
-  #################### Last command status ####################
+  #endregion
+  
+  #region Last Command Status
   $pass = [char]::ConvertFromUtf32(0xf00c)    # 
   $err = [char]::ConvertFromUtf32(0xf00d)     # 
   $sl.PromptSymbols.LastCommandStatusSymbol = If ($lastCommandFailed) { $err } Else { $pass }
@@ -63,22 +66,26 @@ function Write-Theme {
   $lastCommandStatus = " $($sl.PromptSymbols.LastCommandStatusSymbol) "
   $sl.Colors.LastCommandStatusForegroundColor = If ($lastCommandFailed) { [ConsoleColor]::DarkRed } Else { [ConsoleColor]::DarkGreen }
   $sl.Colors.LastCommandStatusBackgroundColor = [ConsoleColor]::Green
-  
-  #################### Python Env ####################
+  #endregion
+
+  #region Python Env
   if (Test-VirtualEnv) {
     $pythonEnv = " $(Get-VirtualEnvName) $($sl.PromptSymbols.VirtualEnvSymbol) "
     $sl.Colors.VirtualEnvForegroundColor = [ConsoleColor]::Black
     $sl.Colors.VirtualEnvBackgroundColor = [System.ConsoleColor]::DarkBlue
   }
+  #endregion
 
-  #################### Timestamp ####################
+  #region Timestamp
   $sl.PromptSymbols.ClockSymbol = [char]::ConvertFromUtf32(0xf64f)  #  
 
   $time = " $(Get-Date -Format HH:mm) $($sl.PromptSymbols.ClockSymbol) "
   $sl.Colors.TimestampForegroundColor = [ConsoleColor]::Black
   $sl.Colors.TimestampBackgroundColor = [ConsoleColor]::White
+  #endregion
 
-  #################### Write Prompt ####################
+  #region Write Prompt
+  #region First Left
   $prompt += Write-Prompt -Object "╭─"
   # Os
   $prompt += Write-Prompt -Object $Os -ForegroundColor $sl.Colors.OsForegroundColor-BackgroundColor $sl.Colors.OsBackgroundColor
@@ -99,7 +106,9 @@ function Write-Theme {
 
     $prompt += Write-Prompt -Object $sl.PromptSymbols.SegmentForwardSymbol -ForegroundColor $sl.Colors.GitBackgroundColor
   }
+  #endregion
 
+  #region First Right
   # Switch to right part
   $rightElements = ($sl.PromptSymbols.SegmentBackwardSymbol, $lastCommandStatus, $sl.PromptSymbols.SegmentBackwardSymbol, $pythonEnv, $sl.PromptSymbols.SegmentBackwardSymbol, $time, "─╮")
   foreach ($indicatior in $rightElements) {
@@ -119,15 +128,19 @@ function Write-Theme {
   # Time
   $prompt += Write-Prompt -Object $time -ForegroundColor $sl.Colors.TimestampForegroundColor -BackgroundColor $sl.Colors.TimestampBackgroundColor
   $prompt += Write-Prompt -Object "─╮"
+  #endregion
 
+  #region Second Line
   # Switch to next line
   $prompt += Write-Prompt -Object "`r"
   $prompt += Set-Newline
   # Switch to right part
   $prompt += Set-CursorForRightBlockWrite -textLength 2
   $prompt += Write-Prompt -Object "─╯"
-  # Switch to left part
+  # Switch back to left part
   $prompt += Write-Prompt -Object "`r"
   $prompt += Write-Prompt -Object "╰─ "
   $prompt
+  #endregion
+  #endregion
 }
