@@ -87,7 +87,12 @@ function Write-Theme {
   # Path
   $prompt += Write-Prompt -Object $path -ForegroundColor $sl.Colors.PathForegroundColor -BackgroundColor $sl.Colors.PathBackgroundColor
   # Connection
-  $prompt += Write-Prompt -Object $sl.PromptSymbols.SegmentForwardSymbol -ForegroundColor $sl.Colors.PathBackgroundColor -BackgroundColor $sl.Colors.GitBackgroundColor
+  if (Get-VCSStatus) {
+    $prompt += Write-Prompt -Object $sl.PromptSymbols.SegmentForwardSymbol -ForegroundColor $sl.Colors.PathBackgroundColor -BackgroundColor $sl.Colors.GitBackgroundColor
+  }
+  else {
+    $prompt += Write-Prompt -Object $sl.PromptSymbols.SegmentForwardSymbol -ForegroundColor $sl.Colors.PathBackgroundColor
+  }
   # Git
   if (Get-VCSStatus) {
     $prompt += Write-Prompt -Object $gitStatus -ForegroundColor $sl.Colors.GitForegroundColor -BackgroundColor $sl.Colors.GitBackgroundColor
