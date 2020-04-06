@@ -46,8 +46,8 @@ ln -h ~/Documents/ssh-configs/tencent ~/.ssh/tencent
 chmod 600 ~/.ssh/deepin ~/.ssh/tencent
 
 # Dash
-open configs/Dash-license.dash-license
-open configs/snippets.dash
+# open configs/Dash-license.dash-license
+# open configs/snippets.dash
 
 # Choose default app icons to live in the Dock
 defaults write com.apple.dock persistent-apps -array ""

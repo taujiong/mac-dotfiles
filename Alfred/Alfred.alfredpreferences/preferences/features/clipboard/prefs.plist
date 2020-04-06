@@ -11,5 +11,7 @@
 		<key>string</key>
 		<string>V</string>
 	</dict>
+	<key>snippetKeyword</key>
+	<string>s</string>
 </dict>
 </plist>

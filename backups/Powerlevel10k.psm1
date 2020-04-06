@@ -16,26 +16,20 @@ function Write-Theme {
   $sl.PromptSymbols.SegmentBackwardSymbol = [char]::ConvertFromUtf32(0xE0B2)        # 
 
   #region Os
-  if ($PSVersionTable.Platform -ne 'Unix') {
-    # suppose it to be Windows
-    $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0xe70f)      # 
+  if ($IsWindows) {
+    $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0xe70f)  # 
   }
-  else {
-    $os = $(uname)
-    switch ($os) {
-      "Darwin" { 
-        $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0xe711)  # 
-      }
-      # TODO: 加入更多Linux系统
-      Default { 
-        $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0xe712)  # 
-      }
-    }
+  elseif ($IsMacOS) {
+    $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0xf302)  # 
+  }
+  elseif ($IsLinux) {
+    # TODO: 加入更多Linux系统
+    $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0xe712)  # 
   }
 
   $Os = " $($sl.PromptSymbols.StartSymbol) "
   $sl.Colors.OsForegroundColor = [ConsoleColor]::Black
-  $sl.Colors.OsBackgroundColor = [ConsoleColor]::Gray
+  $sl.Colors.OsBackgroundColor = [ConsoleColor]::White
   #endregion
 
   #region Path
@@ -65,7 +59,7 @@ function Write-Theme {
 
   $lastCommandStatus = " $($sl.PromptSymbols.LastCommandStatusSymbol) "
   $sl.Colors.LastCommandStatusForegroundColor = If ($lastCommandFailed) { [ConsoleColor]::DarkRed } Else { [ConsoleColor]::DarkGreen }
-  $sl.Colors.LastCommandStatusBackgroundColor = [ConsoleColor]::Green
+  $sl.Colors.LastCommandStatusBackgroundColor = [ConsoleColor]::Black
   #endregion
 
   #region Python Env

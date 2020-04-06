@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "#################### Mac ####################\n# General\n.DS_Store\n.AppleDouble\n.LSOverride\n\n# Icon must end with two \\r\nIcon\n\n# Thumbnails\n._*\n\n# Files that might appear in the root of a volume\n.DocumentRevisions-V100\n.fseventsd\n.Spotlight-V100\n.TemporaryItems\n.Trashes\n.VolumeIcon.icns\n.com.apple.timemachine.donotpresent\n\n# Directories potentially created on remote AFP share\n.AppleDB\n.AppleDesktop\nNetwork Trash Folder\nTemporary Items\n.apdisk",
+    "uid" : "FDC18B5D-5B2C-4BB2-8A5C-7022CA4AE836",
+    "name" : "Mac",
+    "keyword" : "mac"
+  }
+}
