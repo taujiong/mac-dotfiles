@@ -40,14 +40,12 @@ ln -h ~/.dotfiles/backups/config ~/.ssh/config
 mkdir ~/.config/powershell/PoshThemes
 ln -s ~/.dotfiles/backups/Powerlevel10k.psm1 ~/.config/powershell/PoshThemes/Powerlevel10k.psm1
 
+ln -s ~/.dotfiles/backups/Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
+
 # ssh 私钥配置
 ln -h ~/Documents/ssh-configs/deepin ~/.ssh/deepin
 ln -h ~/Documents/ssh-configs/tencent ~/.ssh/tencent
 chmod 600 ~/.ssh/deepin ~/.ssh/tencent
-
-# Dash
-# open configs/Dash-license.dash-license
-# open configs/snippets.dash
 
 # Choose default app icons to live in the Dock
 defaults write com.apple.dock persistent-apps -array ""

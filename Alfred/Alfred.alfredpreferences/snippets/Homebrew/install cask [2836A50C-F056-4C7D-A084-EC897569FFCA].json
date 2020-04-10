@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "brew cask install",
+    "uid" : "2836A50C-F056-4C7D-A084-EC897569FFCA",
+    "name" : "install cask",
+    "keyword" : "ic"
+  }
+}

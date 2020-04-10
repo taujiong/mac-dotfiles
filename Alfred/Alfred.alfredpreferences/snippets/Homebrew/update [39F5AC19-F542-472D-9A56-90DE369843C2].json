@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "brew upgrade; brew cask upgrade",
+    "uid" : "39F5AC19-F542-472D-9A56-90DE369843C2",
+    "name" : "update",
+    "keyword" : "up"
+  }
+}

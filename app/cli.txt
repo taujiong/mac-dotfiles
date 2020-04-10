@@ -7,7 +7,6 @@ gdbm
 gettext
 ghostscript
 git
-git-flow
 glib
 graphviz
 gts
@@ -21,7 +20,7 @@ libpng
 libtiff
 libtool
 libunistring
-mkcert
+mysql
 ncurses
 netpbm
 node
@@ -36,7 +35,6 @@ readline
 sqlite
 telnet
 tmux
-tree
 webp
 wget
 xz

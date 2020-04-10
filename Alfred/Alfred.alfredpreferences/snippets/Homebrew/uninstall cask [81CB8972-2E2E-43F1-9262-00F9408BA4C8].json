@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "brew cask uninstall",
+    "uid" : "81CB8972-2E2E-43F1-9262-00F9408BA4C8",
+    "name" : "uninstall cask",
+    "keyword" : "uc"
+  }
+}

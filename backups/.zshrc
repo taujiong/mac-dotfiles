@@ -6,8 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
 export TERM="xterm-256color"
 
 # _ and - will be interchangeable.
@@ -18,7 +16,7 @@ ENABLE_CORRECTION="false"
 
 # zsh插件
 export ZSH="$HOME/.oh-my-zsh"
-plugins=(zsh-autosuggestions zsh-syntax-highlighting git autojump docker npm yarn dotnet git-flow)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting autojump)
 
 # 网络代理配置
 export ssr_proxy=http://127.0.0.1:1087
@@ -38,28 +36,10 @@ function zl() {
 # 设置别名
 alias tree="tree -N"
 
-alias brewup="brew upgrade; brew cask upgrade"
-alias brews="brew search"
-alias brewi="brew install"
-alias brewl="brew list"
-alias brewu="brew uninstall"
-
-alias brewc="brew cask"
-alias brewci="brew cask install"
-alias brewcl="brew cask list"
-alias brewcu="brew cask uninstall"
-
-
-ENABLE_CORRECTION="false"
 COMPLETION_WAITING_DOTS="true"
 ZSH_DISABLE_COMPFIX="true"
 
 source $ZSH/oh-my-zsh.sh
-
-# source ~/.bash_profile
-if [ -f ~/.bash_profile ]; then
-    . ~/.bash_profile;
-fi
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -84,3 +64,5 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 
 # config localhost https for develop
 # export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=magenta,bold"

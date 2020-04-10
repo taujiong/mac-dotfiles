@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "brew cask list",
+    "uid" : "D98FB258-C571-4187-906E-26DA528545C4",
+    "name" : "list cask",
+    "keyword" : "lc"
+  }
+}

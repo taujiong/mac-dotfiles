@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "brew uninstall",
+    "uid" : "0FAED283-1FFA-4186-9E2D-B0991F70FF56",
+    "name" : "uninstall formulae",
+    "keyword" : "uf"
+  }
+}

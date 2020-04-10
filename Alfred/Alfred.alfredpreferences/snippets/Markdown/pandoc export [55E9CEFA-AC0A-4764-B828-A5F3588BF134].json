@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "---\ntitle: {cursor}\noutput: word_document\n---",
+    "uid" : "55E9CEFA-AC0A-4764-B828-A5F3588BF134",
+    "name" : "pandoc export",
+    "keyword" : "pandoc"
+  }
+}
