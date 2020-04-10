@@ -1,14 +1,6 @@
 echo "[INFO] 打开任意来源app..."
 sudo spctl --master-disable
 
-# Catalina 已经将默认shell设置为zsh
-# echo "[INFO] 切换终端shell..."
-# chsh -s /bin/zsh
-
-# 工具不常用，已弃用
-# echo "[INFO] 添加Hammerspoon配置文件..."
-# git clone https://github.com/taujiong/.hammerspoon.git ~/.hammerspoon
-
 echo "[INFO] 安装oh_my_zsh..."
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
