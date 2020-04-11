@@ -23,9 +23,4 @@ do
 done
 
 # Powershell Plugins
-pwsh
-Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-Install-Module posh-git -Scope CurrentUser
-Install-Module oh-my-posh -Scope CurrentUser
-Install-Module ZLocation -Scope CurrentUser
-Install-Module PSReadLine -AllowPrerelease -Force
+pwsh ./app/ps-modules.ps1
