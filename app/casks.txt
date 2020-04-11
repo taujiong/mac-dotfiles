@@ -1,7 +1,6 @@
 baidunetdisk
 dotnet-sdk
 font-firacode-nerd-font
-iina
 iterm2
 jetbrains-toolbox
 microsoft-edge

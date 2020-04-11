@@ -26,7 +26,7 @@ touch ~/.zshrc
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
 
-mkdir ~/.ssh
+mkdir -p ~/.ssh
 ln -h ~/.dotfiles/backups/config ~/.ssh/config
 
 mkdir -p ~/.config/powershell/PoshThemes

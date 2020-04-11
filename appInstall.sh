@@ -8,8 +8,8 @@ do
   brew tap ${tap};
 done
 
-# cli
-cat app/cli.txt | while read forlumn
+# formulaes
+cat app/formulaes.txt | while read forlumn
 do
   echo "Installing ${forlumn}...";
   brew install ${forlumn};
