@@ -1,6 +1,6 @@
 {
   "alfredsnippet" : {
-    "snippet" : "brew cask list > ~\/.dotfiles\/app\/casks.txt; brew list > ~\/.dotfiles\/app\/cli.txt; brew tap > ~\/.dotfiles\/app\/taps.txt",
+    "snippet" : "brew list --cask > ~\/.dotfiles\/app\/casks.txt; brew list --formulae > ~\/.dotfiles\/app\/formulae.txt; brew tap > ~\/.dotfiles\/app\/taps.txt",
     "uid" : "6D7FB510-598A-4C89-BDD2-907F5567096C",
     "name" : "backup",
     "keyword" : "bak"

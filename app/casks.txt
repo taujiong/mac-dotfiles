@@ -9,14 +9,11 @@ microsoft-edge
 miniconda
 mweb
 postman
-powershell
 qlimagesize
 qlmarkdown
 qlstephen
 qlvideo
 quicklook-json
-setapp
 visual-studio-code
-wechatwebdevtools
 zerotier-one
 zotero

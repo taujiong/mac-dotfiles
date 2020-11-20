@@ -1,6 +1,6 @@
 {
   "alfredsnippet" : {
-    "snippet" : "brew list; brew cask list",
+    "snippet" : "brew list --cask; brew list --formulae",
     "uid" : "09F4B3DC-82E4-463E-B25A-DF653A17CC33",
     "name" : "list all",
     "keyword" : "la"

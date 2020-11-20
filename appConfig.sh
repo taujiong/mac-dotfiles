@@ -29,11 +29,6 @@ ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
 mkdir -p ~/.ssh
 ln -h ~/.dotfiles/backups/config ~/.ssh/config
 
-mkdir -p ~/.config/powershell/PoshThemes
-ln -s ~/.dotfiles/backups/Powerlevel10k.psm1 ~/.config/powershell/PoshThemes/Powerlevel10k.psm1
-
-ln -s ~/.dotfiles/backups/Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
-
 # ssh 私钥配置
 ln -h ~/Documents/ssh-configs/id_rsa ~/.ssh/id_rsa
 ln -h ~/Documents/ssh-configs/id_rsa.pub ~/.ssh/id_rsa.pub
