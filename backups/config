@@ -1,11 +1,12 @@
 # Read more about SSH config files: https://linux.die.net/man/5/ssh_config
 Host tencent
-    HostName 122.51.17.172
+    HostName 42.192.20.3
     User ubuntu
-    IdentityFile /Users/taujiong/.ssh/tencent
 
-Host deepin
-    HostName 122.51.17.172
-    Port 7022
+Host office
+    HostName ubuntu.tpl
+    User tpl
+
+Host google
+    HostName 34.92.81.190
     User taujiong
-    IdentityFile /Users/taujiong/.ssh/deepin

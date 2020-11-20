@@ -19,12 +19,9 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(zsh-autosuggestions zsh-syntax-highlighting autojump)
 
 # 网络代理配置
-export ssr_proxy=http://127.0.0.1:1087
-export http_proxy=$ssr_proxy
-export https_proxy=$ssr_proxy
 function fq() {
-    export http_proxy=$ssr_proxy
-    export https_proxy=$ssr_proxy
+    export http_proxy=http://127.0.0.1:1087
+    export https_proxy=http://127.0.0.1:1087
     echo -e "已开启代理"
 }
 function zl() {

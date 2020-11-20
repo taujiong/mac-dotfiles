@@ -1,12 +1,13 @@
 baidunetdisk
+docker
 dotnet-sdk
 font-firacode-nerd-font
+iina
 iterm2
 jetbrains-toolbox
 microsoft-edge
 miniconda
 mweb
-onedrive
 postman
 powershell
 qlimagesize
@@ -16,4 +17,6 @@ qlvideo
 quicklook-json
 setapp
 visual-studio-code
+wechatwebdevtools
+zerotier-one
 zotero

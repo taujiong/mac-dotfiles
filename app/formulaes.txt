@@ -1,5 +1,4 @@
 autojump
 graphviz
-mysql
 pandoc
 yarn

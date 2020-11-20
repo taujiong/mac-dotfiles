@@ -35,9 +35,9 @@ ln -s ~/.dotfiles/backups/Powerlevel10k.psm1 ~/.config/powershell/PoshThemes/Pow
 ln -s ~/.dotfiles/backups/Microsoft.PowerShell_profile.ps1 ~/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 # ssh 私钥配置
-ln -h ~/Documents/ssh-configs/deepin ~/.ssh/deepin
-ln -h ~/Documents/ssh-configs/tencent ~/.ssh/tencent
-chmod 600 ~/.ssh/deepin ~/.ssh/tencent
+ln -h ~/Documents/ssh-configs/id_rsa ~/.ssh/id_rsa
+ln -h ~/Documents/ssh-configs/id_rsa.pub ~/.ssh/id_rsa.pub
+chmod 600 ~/.ssh/id_rsa
 
 # Choose default app icons to live in the Dock
 defaults write com.apple.dock persistent-apps -array ""
