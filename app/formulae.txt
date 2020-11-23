@@ -1,4 +1,5 @@
 autojump
 graphviz
+mkcert
 pandoc
 yarn
