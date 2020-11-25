@@ -20,9 +20,6 @@ sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 # Disable remote login
 sudo systemsetup -setremotelogin off
 
-# Disable wake-on modem
-sudo systemsetup -setwakeonmodem off
-
 # Disable wake-on LAN
 sudo systemsetup -setwakeonnetworkaccess off
 

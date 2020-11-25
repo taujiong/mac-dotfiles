@@ -1,6 +1,5 @@
 autojump
 graphviz
 mkcert
-node@14
 pandoc
-yarn --without-node
+yarn
