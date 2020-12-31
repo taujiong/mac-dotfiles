@@ -26,6 +26,10 @@ touch ~/.zshrc
 rm ~/.zshrc
 ln -s ~/.dotfiles/backups/.zshrc ~/.zshrc
 
+touch ~/.p10k.zsh
+rm ~/.p10k.zsh
+ln -s ~/.dotfiles/backups/.p10k.zsh ~/.p10k.zsh
+
 mkdir -p ~/.ssh
 ln -h ~/.dotfiles/backups/config ~/.ssh/config
 
